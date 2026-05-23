@@ -1,2 +1,1 @@
-CRONOS - versão preservada com API Proxy Vercel.
-Envie index.html, vercel.json e a pasta api para o GitHub/Vercel.
+CRONOS modo cofre: index minimo; app carregado por API. Suba todos estes arquivos na raiz do projeto Vercel.
