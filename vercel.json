@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "cleanUrls": true,
+  "headers": [
+    {"source": "/(.*)", "headers": [
+      {"key": "X-Content-Type-Options", "value": "nosniff"},
+      {"key": "Referrer-Policy", "value": "same-origin"},
+      {"key": "Cache-Control", "value": "no-store"}
+    ]}
+  ],
+  "functions": {
+    "api/proxy.js": {"maxDuration": 30},
+    "api/vault.js": {"maxDuration": 10},
+    "api/boot.js": {"maxDuration": 10}
+  }
+}

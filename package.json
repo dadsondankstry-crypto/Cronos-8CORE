@@ -1,14 +1,1 @@
-<!doctype html>
-<html lang="pt-br">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>CRONOS</title>
-<style>html,body{margin:0;min-height:100%;background:#000;color:#ffcc00;font-family:sans-serif}#cronos-root{min-height:100vh;display:flex;align-items:center;justify-content:center;letter-spacing:8px;font-weight:700}</style>
-</head>
-<body>
-<noscript>Ative o JavaScript para carregar o Cronos.</noscript>
-<div id="cronos-root">CRONOS</div>
-<script src="/api/boot"></script>
-</body>
-</html>
+{"type":"module","private":true,"scripts":{"start":"vercel dev"}}
