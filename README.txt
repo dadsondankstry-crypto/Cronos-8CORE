@@ -1,1 +1,2 @@
-Versão split mínima: index.html quase vazio. A estrutura visual carrega de assets/html/shell.html e o app de assets/js/app.bundle.js.
+CRONOS - versão preservada com API Proxy Vercel.
+Envie index.html, vercel.json e a pasta api para o GitHub/Vercel.
